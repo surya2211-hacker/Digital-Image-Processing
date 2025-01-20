@@ -4,7 +4,7 @@ clc;
 clear all;
 close all;
 %importing image
-I = imread('https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=');
+I = imread('https://static.vecteezy.com/system/resources/thumbnails/047/453/609/small/a-majestic-tiger-against-a-black-background-photo.jpg');
 %conversion of original image to grayscale image
 R=I(:,:,1);
 G=I(:,:,2);
